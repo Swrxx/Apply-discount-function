@@ -1,3 +1,4 @@
+```python
 #your code here
 def apply_discount(price, discount):
     if type(price) != int and type(price) != float:
@@ -9,4 +10,5 @@ def apply_discount(price, discount):
     if discount < 0 or discount > 100:
         return"The discount should be between 0 and 100"
     return price - (price * discount / 100)
+```
 
